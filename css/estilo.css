@@ -177,6 +177,118 @@ a{
     margin-top: 40%;
 }
 
+/* Terceira Parte Main */
+
+.main_terceira_parte{
+    background-color: var(--cor-cabecalho);
+}
+
+.titulo_terceira{
+    font-family: var(--fonte-textos);
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin: 0 0 2rem 5%;
+    padding-top: 2rem;
+}
+
+.oceano_interativo{
+    background-image: url(../img/oceano-720px.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* padding: 20vw; */
+}
+
+.bolinha{
+    border: 3px solid black;
+    border-radius: 10rem;
+    background-color: var(--cor-cabecalho);
+    color: #ffffff;
+    font-family: var(--fonte-textos);
+    font-size: 2.5rem;
+    padding: 2rem 3rem;
+}
+
+.bolinha_1{
+    margin-left: 10%;
+    margin-top: 28%;
+}
+
+.bolinha_2{
+    margin-left: 79%;
+    margin-top: 2%;
+}
+
+.bolinha_3{
+    margin-left: 18%;
+    margin-top: 2%;
+}
+
+.bolinha_4{
+    margin-left: 70%;
+    margin-top: 1%;
+    margin-bottom: 2rem;
+}
+
+.conteudo{
+    background-color: var(--fundo-main-1);
+    
+}
+
+.conteudo_imagem{
+    display: flex;
+}
+
+.titulo_conteudo{
+    font-family: var(--fonte-textos);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+.texto_conteudo{
+    font-family: var(--fonte-textos);
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 2rem;
+    /* text-align: justify; */
+    width: 40vw;
+    margin-left: 2rem;
+}
+
+.conteudo_4{
+    padding-bottom: 2rem;
+}
+
+.imagem_conteudo{
+    margin: 0 2rem 2rem 2rem;
+    border: 5px solid var(--cor-cabecalho);
+    border-radius: 10px;
+}
+
+dialog{
+    overflow: hidden;
+    border: 3px solid var(--cor-cabecalho);
+    width: 70%;
+    margin: auto;
+    background-color: var(--fundo-main-1);
+}
+
+dialog::backdrop{
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+.closeModal{
+    border: none;
+    background-color: var(--fundo-main-1);
+    color: #ffffff;
+    font-family: var(--fonte-textos);
+    font-size: 1.2rem;
+    margin-left: 96%;
+    margin-top: 2%;
+}
 
 
 
