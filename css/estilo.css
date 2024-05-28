@@ -24,6 +24,11 @@
     width: 7vw;
 }
 
+.titulo_cabecalho{
+    font-family: var(--fonte-links);
+    color: #ffffff;
+}
+
 .cabecalho_logo_links{
     display: flex;
     align-items: center;
@@ -39,8 +44,7 @@
 }
 
 .primeiro_link{
-    margin-left: 50vw;
-    text-decoration: none;
+    margin-left: 38vw;
 } 
 
 .segundo_link{
@@ -55,10 +59,23 @@
     margin-left: 5vw;
 }
 
-a{
+li{
+    list-style: none;
+}
+
+.links,
+.integrantes{
     text-decoration: none;
     color: #ffffff;
     font-family: var(--fonte-links);
+    transition-duration: 0.3s;
+    transition-property: transform;
+    property: transform;
+}
+
+.links:hover, .integrantes:hover{
+    transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* Primeira Parte Main */
@@ -208,6 +225,15 @@ a{
     font-family: var(--fonte-textos);
     font-size: 2.5rem;
     padding: 2rem 3rem;
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.bolinha:hover{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .bolinha_1{
@@ -290,7 +316,22 @@ dialog::backdrop{
     margin-top: 2%;
 }
 
+/* rodapé */
 
+.rodape{
+    background-color: var(--cor-cabecalho);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+
+.copyright{
+    font-family: var(--fonte-textos);
+    color: #ffffff;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
 
 
 
