@@ -119,6 +119,64 @@ a{
     margin-left: 5rem;
 }
 
+/* Segunda Parte Main */
+
+.main_segunda_parte{
+    background-color: #ffffff;
+    padding-bottom: 5%;
+}
+
+.titulo_segunda{
+    font-family: var(--fonte-textos);
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-left: 5%;
+    display: flex;
+}
+
+.tipos_poluição{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.titulo_tipos{
+    font-family: var(--fonte-textos);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.textos_tipos{
+    font-family: var(--fonte-textos);
+    font-weight: normal;
+    font-size: 1.2rem;
+    width: 35vw;
+    text-align: justify;
+    margin-left: 1rem;
+}
+
+.imagem_texto{
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.tipos_3_4{
+    margin-left: 5%;
+}
+
+.titulo_quimica{
+    margin-top: 40%;
+}
+
+.imagem_quimica{
+    width: 5.5vw;
+}
+
+.titulo_esgoto{
+    margin-top: 40%;
+}
+
 
 
 
