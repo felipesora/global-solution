@@ -61,7 +61,63 @@ a{
     font-family: var(--fonte-links);
 }
 
+/* Primeira Parte Main */
 
+.main_primeira_parte{
+    background-color: var(--fundo-main-1);
+}
+
+.main_primeira_titulo{
+    font-family: var(--fonte-textos);
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.main_primeira_subtitulo{
+    font-family: var(--fonte-textos);
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.main_primeira_textos{
+    font-family: var(--fonte-textos);
+    font-weight: normal;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.textos_poluição_marinha{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.poluicao_marinha{
+    width: 40vw;
+}
+
+.imagem_textos_impacto{
+    display: flex;
+    align-items: center;
+    margin: 5% 0% 0% 5%;
+    padding-bottom: 2rem;
+
+}
+
+.main_primeira_imagem{
+    width: 40vw;
+    border: solid 3px var(--cor-cabecalho);
+}
+
+.textos_impacto{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin-left: 5rem;
+}
 
 
 
