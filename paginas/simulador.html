@@ -1,0 +1,80 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Impacto Ambiental</title>
+    <link rel="stylesheet" href="../css/simulador.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../js/simulador.js" defer></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho_logo_links">
+            <img src="../img/logo-gs.png" alt="Logo de um símbolo de reciclagem atrás do planeta Terra" class="logo">
+            <h1 class="titulo_cabecalho">OceanAlert</h1>
+            <ul class="cabecalho_links">
+                <li class="primeiro_link"><a href="../index.html" class="links">Página Inicial</a></li>
+                <li class="segundo_link"><a href="#" class="links">Seção de Informações</a></li>
+                <li class="terceiro_link"><a href="#" class="links">Dicas e Ações</a></li>
+                <li class="quarto_link"><a href="simulador.html" class="links">Simulador </a></li>
+            </ul>
+        </div>
+    </header>
+
+     <main class="main_simulador">
+         <div class="descricao-simulador">
+            <h1 class="titulo_descrição">Bem-vindo ao Simulador de Impacto Ambiental!</h1>
+            <p class="textos_simulador">A poluição marinha é um dos maiores desafios ambientais do nosso tempo, e o plástico, especialmente as garrafas PET, representa uma grande parte desse problema. Você sabia que uma única garrafa PET pode levar até 450 anos para se decompor no oceano? Com o aumento do consumo de produtos embalados em plástico, é fundamental entender e reduzir nosso impacto no meio ambiente.</p>
+            <p class="textos_simulador">Nosso Simulador de Impacto Ambiental foi desenvolvido para ajudar você a compreender o impacto das suas ações no meio ambiente, especificamente em relação ao consumo de garrafas PET. Com este simulador, você poderá:</p>
+            <p class="textos_simulador">1. Calcular o impacto anual: Insira o número de garrafas PET que você consome por semana. O simulador irá calcular quantas garrafas você consome em um ano.</p>
+            <p class="textos_simulador">2. Avaliar sua prática de reciclagem: Selecione a frequência com que você recicla suas garrafas PET. Isso ajudará a ajustar o impacto calculado com base em seus hábitos de reciclagem.</p>
+            <p class="textos_simulador">3. Entender a importância da reciclagem: Consulte nossa tabela de frequência de reciclagem para saber o que é considerado pouco, médio e muito em termos de reciclagem. Essa tabela oferece uma visão clara do impacto de diferentes níveis de reciclagem.</p>
+            <p class="textos_simulador">Utilizando este simulador, esperamos que você possa refletir sobre seus hábitos de consumo e reciclagem, e encontrar maneiras de reduzir seu impacto ambiental. Pequenas mudanças podem fazer uma grande diferença!</p>
+             </div>
+         
+             
+             <div class="simulador">
+            <label for="garrafasPet">Quantas garrafas PET você consome por semana?</label>
+            <input type="number" id="garrafasPet" name="garrafasPet">
+            <span id="erro-garrafas" class="erro-mensagem"></span>
+            <label for="reciclagem">Qual é a frequência com que você recicla suas garrafas PET?</label>
+            <select id="reciclagem" name="reciclagem">
+                <option value="pouco">Pouco</option>
+                <option value="medio">Médio</option>
+                <option value="muito">Muito</option>
+            </select>
+            <table class="tabela-frequencia">
+                <thead>
+                    <tr>
+                        <th>Frequência</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pouco</td>
+                        <td>Recicla raramente ou nunca</td>
+                    </tr>
+                    <tr>
+                        <td>Médio</td>
+                        <td>Recicla ocasionalmente</td>
+                    </tr>
+                    <tr>
+                        <td>Muito</td>
+                        <td>Recicla sempre que possível</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button onclick="calcularImpacto()">Calcular Impacto</button>
+            <div id="resultado"></div>
+             </div>
+     </main>
+
+     <footer class="rodape_simulador">
+        <ul>
+            <li><a href="#" class="integrantes_simulador">Integrantes</a></li>
+        </ul>
+        <p class="copyright_simulador">&copy; 2024 OceanAlert. All rights reserved.</p>
+    </footer>
+</body>
+</html>
