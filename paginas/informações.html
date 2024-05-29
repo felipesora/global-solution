@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Solution</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/informações.css">
+    <script src="../js/informações.js" defer></script>
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho_logo_links">
+            <img src="../img/logo-gs.png" alt="Logo de um símbolo de reciclagem atrás do planeta Terra" class="logo">
+            <h1 class="titulo_cabecalho">OceanAlert</h1>
+            <ul class="cabecalho_links">
+                <li class="primeiro_link"><a href="../index.html" class="links">Página Inicial</a></li>
+                <li class="segundo_link"><a href="informações.html" class="links">Seção de Informações</a></li>
+                <li class="terceiro_link"><a href="#" class="links">Dicas e Ações</a></li>
+                <li class="quarto_link"><a href="../paginas/simulador.html" class="links">Simulador </a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="alerta">
+            <h1 class="texto_alerta">ALERTA</h1>
+            <img src="../img/alert-100px.png" alt="simbolo de alerta na cor vermelha" class="imagem_alerta">
+        </div>
+        <div class="conteudo_alerta">
+            <h2 class="subtitulo_alerta">Riscos de não ter um Monitoramento Marítimo adequado:</h2>
+            <p class="texto_conteudo_alerta">A ausência de um sistema de monitoramento marítimo eficiente pode resultar em diversos riscos e consequências negativas, tanto para o meio ambiente quanto para a população. Entre os principais riscos estão:</p>
+        </div>
+        <div class="bolinhas_alerta">
+            <button id="openModalAlert1" class="bolinha bolinha_alerta1">1</button>
+            <dialog id="ModalAlert1">
+                <button id="closeModalAlert1" class="closeModal"> X </button>
+                <div class="conteudo">
+                    <h1 class="titulo_conteudo">1 - Desastres Naturais</h1>
+                    <div class="conteudo_imagem">
+                        <p class="texto_conteudo">A falta de monitoramento impede a previsão e a mitigação de desastres naturais, como tempestades severas, ciclones e ressacas. Esses eventos podem causar grandes prejuízos materiais, perdas humanas e danos ambientais.
+                        </p>
+                        <img src="../img/ciclone.jpg" alt="imagem um grande ciclone" class="imagem_conteudo">
+                    </div>
+                </div>
+            </dialog>
+
+            <button id="openModalAlert2" class="bolinha bolinha_alerta">2</button>
+            <dialog id="ModalAlert2">
+                <button id="closeModalAlert2" class="closeModal"> X </button>
+                <div class="conteudo">
+                    <h1 class="titulo_conteudo">2 - Segurança da Navegação:</h1>
+                    <div class="conteudo_imagem">
+                        <p class="texto_conteudo">Sem monitoramento, aumenta o risco de acidentes marítimos, como colisões e naufrágios, que podem resultar em derramamento de óleo e outras substâncias perigosas, poluindo o mar e afetando a biodiversidade marinha.
+                        </p>
+                        <img src="../img/naufragio.jpg" alt="imagem de um barco naufragado" class="imagem_conteudo">
+                    </div>
+                </div>
+            </dialog>
+
+            <button id="openModalAlert3" class="bolinha bolinha_alerta">3</button>
+            <dialog id="ModalAlert3">
+                <button id="closeModalAlert3" class="closeModal"> X </button>
+                <div class="conteudo">
+                    <h1 class="titulo_conteudo">3 - Impacto na Pesca:</h1>
+                    <div class="conteudo_imagem">
+                        <p class="texto_conteudo">
+                            A ausência de dados sobre condições marítimas e populações de peixes pode levar a uma gestão inadequada dos recursos pesqueiros, resultando em sobrepesca e colapso de estoques pesqueiros, prejudicando a economia local.
+                        </p>
+                        <img src="../img/pesca.jpg" alt="imagem de uma pessoa pescando" class="imagem_conteudo">
+                    </div>
+                </div>
+            </dialog>
+
+            <button id="openModalAlert4" class="bolinha bolinha_alerta">4</button>
+            <dialog id="ModalAlert4">
+                <button id="closeModalAlert4" class="closeModal"> X </button>
+                <div class="conteudo">
+                    <h1 class="titulo_conteudo">4 - Erosão e Inundações:</h1>
+                    <div class="conteudo_imagem">
+                        <p class="texto_conteudo">
+                            A falta de monitoramento impede a implementação de medidas preventivas eficazes contra a erosão costeira e inundações, aumentando os danos às propriedades e à infraestrutura costeira.
+                        </p>
+                        <img src="../img/inundação.jpg" alt="imagem de uma inundação na cidade" class="imagem_conteudo">
+                    </div>
+                </div>
+            </dialog>
+
+            <button id="openModalAlert5" class="bolinha bolinha_alerta">5</button>
+            <dialog id="ModalAlert5">
+                <button id="closeModalAlert5" class="closeModal"> X </button>
+                <div class="conteudo">
+                    <h1 class="titulo_conteudo">5 - Perda de Biodiversidade:</h1>
+                    <div class="conteudo_imagem">
+                        <p class="texto_conteudo">Sem dados adequados sobre a qualidade da água e os ecossistemas marinhos, torna-se difícil implementar políticas de conservação eficazes, resultando em perda de habitats e redução da biodiversidade.
+                        </p>
+                        <img src="../img/biodiversidade-marinha.jpg" alt="imagem de várias espécies de plantas e peixes" class="imagem_conteudo">
+                    </div>
+                </div>
+            </dialog>
+
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <ul>
+            <li><a href="#" class="integrantes">Integrantes</a></li>
+        </ul>
+        <p class="copyright">&copy; 2024 OceanAlert. All rights reserved.</p>
+    </footer>
+</body>
+</html>
