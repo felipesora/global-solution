@@ -38,7 +38,7 @@ body {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-family: var(--fonte-textos);
-    color: #243036;
+    color: #ffffff;
 }
 
 .textos_simulador{
@@ -48,7 +48,7 @@ body {
     font-family: var(--fonte-textos);
     width: 90vw;
     text-align: justify;
-    color: #243036;
+    color: #ffffff;
 }
 
 .input-container {
