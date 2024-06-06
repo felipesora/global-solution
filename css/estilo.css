@@ -774,14 +774,22 @@ dialog::backdrop{
     
 }
 
+@media (max-width: 410px){
+    .titulo_esgoto{
+        margin-top: 1%;
+    }
+}
+
 @media (max-width: 420px){
     .titulo_esgoto{
         margin-top: 10%;
     }
 }
 
-@media (max-width: 410px){
+@media (max-width: 396px){
     .titulo_esgoto{
         margin-top: 1%;
     }
 }
+
+
