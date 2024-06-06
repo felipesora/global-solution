@@ -780,3 +780,8 @@ dialog::backdrop{
     }
 }
 
+@media (max-width: 400px){
+    .titulo_esgoto{
+        margin-top: 1%;
+    }
+}
