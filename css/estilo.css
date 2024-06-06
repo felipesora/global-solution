@@ -638,12 +638,47 @@ dialog::backdrop{
         font-size: 2rem;
     }
 
-    .titulo_tipos{
-        font-size: 1rem;
+    .tipos_poluição{
+        display: initial;
+    }
+
+    .titulo_esgoto{
+        margin-top: 10%;
     }
 
     .textos_tipos{
-        font-size: 0.8rem;
+        width: 60vw;
+    }
+
+    .tipos_poluição{
+        display: initial;
+    }
+
+    .tipos_1_2{
+        margin-left: 12%;
+    }
+
+    .tipos_3_4{
+        margin-left: 12%;
+    }
+
+    .titulo_plasticos{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    .titulo_quimica{
+        margin-top: 15%;
+        margin-left: 16%;
+    }
+
+    .titulo_petroleo{
+        margin-top: 15%;
+        margin-left: 10%;
+    }
+
+    .titulo_esgoto{
+        margin-top: 15%;
+        margin-left: 10%;
     }
 
     .imagem_garrafa{
@@ -666,13 +701,11 @@ dialog::backdrop{
         height: 5vh;
     }
 
-    .titulo_esgoto{
-        margin-top: 17%;
-    }
 
-    .tipos_3_4{
-        margin-left: 4%;
-    }
+
+
+
+
 
     .titulo_terceira{
         font-size: 2rem;
@@ -795,44 +828,27 @@ dialog::backdrop{
         margin-left: 10%;
     }
 
-    .titulo_tipos{
-        margin-left: 20%;
+    .titulo_plasticos{
+        margin-top: 10%;
     }
 
     .titulo_quimica{
         margin-top: 10%;
-        margin-left: 25%;
+        margin-left: 14%;
     }
 
     .titulo_petroleo{
         margin-top: 10%;
-        margin-left: 22%;
+        margin-left: 10%;
     }
 
     .titulo_esgoto{
-        margin-left: 22%;
+        margin-left: 10%;
     }
 
     
 
 }
 
-/* @media (max-width: 410px){
-    .titulo_esgoto{
-        margin-top: 1%;
-    }
-} */
-
-/* @media (max-width: 396px){
-    .titulo_esgoto{
-        margin-top: 1%;
-    }
-}
-
-@media (max-width: 380px){
-    .titulo_esgoto{
-        margin-top: 1%;
-    }
-} */
 
 
