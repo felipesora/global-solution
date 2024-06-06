@@ -54,3 +54,57 @@
 .bolinha_alerta{
     margin-left: 4%;
 }
+
+@media (max-width: 1440px){
+    .conteudo_alerta{
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 840px){
+    .subtitulo_alerta{
+        font-size: 2rem;
+    }
+
+    .texto_conteudo_alerta{
+        font-size: 1.5rem;
+    }
+
+    .bolinhas_alerta{
+        margin-top: 15%;
+        margin-bottom: 17%;
+    }
+}
+
+@media (max-width: 750px){
+
+}
+
+@media (max-width: 430px){
+    .texto_alerta{
+        font-size: 2rem;
+    }
+
+    .imagem_alerta{
+        width: 20vw;
+    }
+
+    .subtitulo_alerta{
+        font-size: 1.5rem;
+    }
+
+    .texto_conteudo_alerta{
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+
+    .bolinhas_alerta{
+        margin-top: 20%;
+        margin-bottom: 15%;
+    }
+
+    .bolinha_alerta{
+        margin-left: 2%;
+    }
+}

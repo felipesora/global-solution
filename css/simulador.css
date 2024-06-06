@@ -157,3 +157,39 @@ th {
         margin-top: 1rem;
         padding-bottom: 1rem;
 }
+
+@media (max-width: 1024px){
+    .simulador{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 750px){
+    .titulo_descrição{
+        font-size: 2.5rem;
+        margin-right: 1%;
+    }
+
+    .textos_simulador{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 430px){
+    .titulo_descrição{
+        font-size: 2rem;
+    }
+
+    .textos_simulador{
+        font-size: 0.8rem;
+    }
+
+    .integrantes_simulador{
+        font-size: 0.8rem;
+    }
+
+    .copyright_simulador{
+        font-size: 0.7rem;
+    }
+}
