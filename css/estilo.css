@@ -774,22 +774,65 @@ dialog::backdrop{
     
 }
 
-@media (max-width: 410px){
-    .titulo_esgoto{
-        margin-top: 1%;
-    }
-}
-
 @media (max-width: 420px){
     .titulo_esgoto{
         margin-top: 10%;
     }
+
+    .textos_tipos{
+        width: 60vw;
+    }
+
+    .tipos_poluição{
+        display: initial;
+    }
+
+    .tipos_1_2{
+        margin-left: 10%;
+    }
+
+    .tipos_3_4{
+        margin-left: 10%;
+    }
+
+    .titulo_tipos{
+        margin-left: 20%;
+    }
+
+    .titulo_quimica{
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+
+    .titulo_petroleo{
+        margin-top: 10%;
+        margin-left: 22%;
+    }
+
+    .titulo_esgoto{
+        margin-left: 22%;
+    }
+
+    
+
 }
 
-@media (max-width: 396px){
+/* @media (max-width: 410px){
+    .titulo_esgoto{
+        margin-top: 1%;
+    }
+} */
+
+/* @media (max-width: 396px){
     .titulo_esgoto{
         margin-top: 1%;
     }
 }
+
+@media (max-width: 380px){
+    .titulo_esgoto{
+        margin-top: 1%;
+    }
+} */
 
 
